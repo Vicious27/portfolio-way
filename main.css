@@ -23,10 +23,11 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(29, 22, 22, 0.945);
+  background-color: rgba(29, 22, 22, 0.87);
   position: fixed;
   overflow: hidden;
   width: 100%;
+  z-index: 1;
 }
 
 .nav-logo {
@@ -74,7 +75,10 @@ main {
   width: 100%;
   background-color: #91B7D9;
   border-radius: 10px;
+  transition: 0.3s;
 }
+
+
 
 /* //////////    TYPOGRAPHY   //////////// */
  
@@ -241,6 +245,7 @@ header {
   font-size: 32px;
   text-decoration: underline;
 }
+
 
 .project1 img {
   margin-top: 1em;
