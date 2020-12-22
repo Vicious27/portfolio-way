@@ -35,6 +35,7 @@ main {
   font-family: 'Trade Winds', cursive;
   margin: .6rem;
   color: rgba(163, 66, 158, 0.918);
+  transition: 0.30s;
 }
 
 .navbar-links ul {
@@ -55,7 +56,7 @@ main {
 }
 
 .navbar-links li:hover {
-  background-color: rgba(119, 136, 153, 0.507);
+  background-color: rgba(2, 2, 2, 0.863);
 }
 
 
@@ -75,7 +76,6 @@ main {
   width: 100%;
   background-color: #91B7D9;
   border-radius: 10px;
-  transition: 0.3s;
 }
 
 
@@ -131,7 +131,7 @@ h1 {
  }
 
  a:hover {
-   font-style: italic;
+   font-size: 1.1em;
    font-weight: bold;
  }
 
