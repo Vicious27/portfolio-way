@@ -266,7 +266,7 @@ section.project1 {
 }
 
 section.project1 {
-  border: solid black 2px;
+  border: solid #000000 2px;
   box-shadow: 0px 0px 25px 20px black;
   color: rgb(34, 138, 187);
   text-align: center;
