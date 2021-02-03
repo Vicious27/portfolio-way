@@ -89,8 +89,7 @@ a.toggle-button:hover {
  #contact {
    position: relative;
    background-color:rgba(20, 21, 22, 0.925);
-   height: fit-content;
-   width: fit-content;
+   width: 260px;
    text-align: center;
    padding: 10px;
    margin-left: 10px;
