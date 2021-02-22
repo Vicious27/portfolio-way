@@ -46,6 +46,7 @@ main {
 
 .navbar-links li {
   list-style: none;
+  font-family: 'open Sans';
 }
 
 .navbar-links li a {
@@ -102,7 +103,7 @@ a.toggle-button:hover {
 
 h1 {
    font-size: 45px;
-   font-family: 'Open Sans', ;
+   font-family: 'Open Sans';
    color: rgba(3, 3, 3, 0.938);
    line-height: 1.5;
    max-width: 100%;
@@ -247,7 +248,7 @@ header, h1 {
   max-width: 100%;
   line-height: 1.5;
   font-size: 20px;
-  font-family: 'Open Sans', ;
+  font-family: 'Open Sans';
 }
 
 .bio p {
@@ -279,7 +280,7 @@ section.project1 {
   max-width: 100%;
   line-height: 1.5;
   font-size: 20px;
-  font-family: 'Open Sans', ;
+  font-family: 'Open Sans';
 }
 
 section.project1 {
