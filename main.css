@@ -310,5 +310,6 @@ footer {
 footer a:link {
   color: rgba(20, 220, 160, 0.938);
   padding-left: .7em;
+  font-family: 'open sans';
 }
 
