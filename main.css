@@ -78,7 +78,7 @@ a.toggle-button:hover {
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: #91B7D9;
+  background-color:rgba(255, 255, 255, 0.856);
   border-radius: 10px;
 }
 
@@ -212,8 +212,26 @@ h1 {
 
 /* ///////////    REGULAR CSS     //////////////// */
 
-header {
-  padding: 12% 0;
+header, h1 {
+  /* sizing */
+  width: 100vw;
+  height: 100vh;
+  
+  /* flexbox centering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* text styles */
+  text-align: centers;
+  color: rgba(255, 255, 255, 0.856);
+
+ /* Background styles */
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./Steele-Rutherford-miami-skyline.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .bio img {
