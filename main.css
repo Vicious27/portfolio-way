@@ -51,13 +51,13 @@ main {
 
 .navbar-links li a {
   text-decoration: none;
-  color:#91B7D9;
+  color:#417cadef;
   padding: 1rem;
   display: block;
 }
 
 .navbar-links li:hover {
-  background-color: rgba(133, 128, 133, 0.527);
+  background-color: rgba(101, 105, 105, 0.623);
 }
 
 .toggle-button {
@@ -69,7 +69,7 @@ main {
   justify-content: space-between;
   width: 30px;
   height: 21px;
-  transition-duration: 0.35s;
+  transition-duration: 0.25s;
 }
 
 a.toggle-button:hover {
@@ -82,7 +82,6 @@ a.toggle-button:hover {
   background-color:rgba(255, 255, 255, 0.856);
   border-radius: 10px;
 }
-
 
 
 /* //////////    TYPOGRAPHY   //////////// */
@@ -141,13 +140,15 @@ h1 {
 
 
 
-
-
  /* ///////////   EVERYTHING MEDIAN QUERY  /////// */
 
 @media (max-width: 520px) {
   .toggle-button {
     display: flex;
+  }
+
+  header, h1 {
+    background-attachment: scroll;
   }
 
   .navbar-links {
@@ -178,7 +179,6 @@ h1 {
   }
 
  h1 {
-  text-align: center;
   font-size: 30px;
   }
 
@@ -210,14 +210,17 @@ h1 {
     font-size: 26px;
   }
 
+  header, h1 {
+    background-attachment: scroll;
+  }
 }
 
 /* ///////////    REGULAR CSS     //////////////// */
 
 header, h1 {
   /* sizing */
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 72vh;
   
   /* flexbox centering */
   display: flex;
@@ -225,11 +228,11 @@ header, h1 {
   align-items: center;
 
   /* text styles */
-  text-align: centers;
+  text-align: center;
   color: rgba(255, 255, 255, 0.856);
 
  /* Background styles */
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./Steele-Rutherford-miami-skyline.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./Steele-Rutherford-Miami-FL-skyline.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -267,7 +270,6 @@ header, h1 {
   text-decoration: underline;
 }
 
-
 .project1 img {
   margin-top: 1em;
   width: 100%;
@@ -292,12 +294,10 @@ section.project1 {
   background-color: rgba(0, 0, 0, 0.89);
 }
 
-
 section.project1 p {
   color: rgba(230, 218, 218, 0.89);
   font-family: 'robot';
 }
-
 
 footer {
   text-align: left;
@@ -312,4 +312,3 @@ footer a:link {
   padding-left: .7em;
   font-family: 'open sans';
 }
-
