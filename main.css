@@ -138,6 +138,9 @@ h1 {
    font-weight: bold;
  }
 
+ html {
+   scroll-behavior: smooth;
+ }
 
 
  /* ///////////   EVERYTHING MEDIAN QUERY  /////// */
