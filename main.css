@@ -142,82 +142,6 @@ h1 {
    scroll-behavior: smooth;
  }
 
-
- /* ///////////   EVERYTHING MEDIAN QUERY  /////// */
-
-@media (max-width: 520px) {
-  .toggle-button {
-    display: flex;
-  }
-
-  header, h1 {
-    background-attachment: scroll;
-  }
-
-  .navbar-links {
-    display: none;
-    width: 100%;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar-links ul {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .navbar-links li {
-    text-align: center;
-  }
-
-  .navbar-links li a {
-    padding: .5rem 1rem;
-  }
-
-  .navbar-links.active {
-    display: flex;
-  }
-
- h1 {
-  font-size: 30px;
-  }
-
-#contact {
-  text-align: center;
-  }
-
- .bio article {
-   font-size: 16px;
-   padding: 10px;
-  }
-
- .bio img {
-  margin-top: 1em;
-  width: 100%;
-  height: 100%;
-  }
-
- section.project1 {
-  border: solid black 2px;
-  color: rgb(34, 138, 187);
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.89);
- }
-}
-
-@media (min-width: 1024px) {
-  .bio, p {
-    font-size: 26px;
-  }
-
-  header, h1 {
-    background-attachment: scroll;
-  }
-}
-
 /* ///////////    REGULAR CSS     //////////////// */
 
 header, h1 {
@@ -314,4 +238,85 @@ footer a:link {
   color: rgba(20, 220, 160, 0.938);
   padding-left: .7em;
   font-family: 'open sans';
+}
+
+ /* ///////////   EVERYTHING MEDIAN QUERY  /////// */
+
+@media (max-width: 520px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  header, h1 {
+    background-attachment: scroll;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+ h1 {
+  font-size: 30px;
+  }
+
+#contact {
+  text-align: center;
+  }
+
+ .bio article {
+   font-size: 16px;
+   padding: 10px;
+  }
+
+ .bio img {
+  margin-top: 1em;
+  width: 100%;
+  height: 100%;
+  }
+
+ section.project1 {
+  border: solid black 2px;
+  color: rgb(34, 138, 187);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.89);
+ }
+}
+
+@media (min-width: 600px) {
+  .bio, p {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bio, p {
+    font-size: 26px;
+  }
+
+  header, h1 {
+    background-attachment: scroll;
+  }
 }
