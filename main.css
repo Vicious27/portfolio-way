@@ -36,6 +36,16 @@ main {
   margin: .6rem;
   color: rgba(163, 66, 158, 0.918);
   transition: 0.25s;
+  cursor: pointer;
+}
+
+#vanish {
+  font-size: 1.2rem;
+  font-family: 'Trade Winds', cursive;
+  margin: .6rem;
+  color: rgba(100, 41, 97, 0);
+  transition: 0.60s;
+  cursor: pointer;
 }
 
 .navbar-links ul {
