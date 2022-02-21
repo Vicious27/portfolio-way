@@ -17,8 +17,12 @@ function vanishLogo() {
 function appearLogo() {
   navbarLogo.id = unseenLogo;
 }
-//event listeners
-navbarLogo.addEventListener('mouseover', appearLogo);
-navbarLogo.addEventListener('click', vanishLogo);
+//event listeners for desktop
+navbarLogo.addEventListener('mouseover', vanishLogo);
+navbarLogo.addEventListener('mouseout', appearLogo);
+//event listeners for mobile
+navbarLogo.addEventListener('touchstart', vanishLogo);
+navbarLogo.addEventListener('touchstart', appearLogo);
+
 
 
