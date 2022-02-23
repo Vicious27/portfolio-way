@@ -56,12 +56,13 @@ main {
 
 .navbar-links li {
   list-style: none;
-  font-family: 'open Sans';
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1em;
 }
 
 .navbar-links li a {
   text-decoration: none;
-  color:#417cadef;
+  color:rgba(130, 162, 214, 0.938);
   padding: 1rem;
   display: block;
 }
@@ -131,7 +132,7 @@ h1 {
  #contact p {
     color:blueviolet;
     text-align: left;
-    font-family: 'open sans';
+    font-family: 'Open Sans';
  }
 
  
@@ -233,7 +234,7 @@ section.project1 {
 
 section.project1 p {
   color: rgba(230, 218, 218, 0.89);
-  font-family: 'robot';
+  font-family: 'Open Sans';
 }
 
 footer {
@@ -247,7 +248,7 @@ footer {
 footer a:link {
   color: rgba(20, 220, 160, 0.938);
   padding-left: .7em;
-  font-family: 'open sans';
+  font-family: 'Open Sans';
 }
 
  /* ///////////   EVERYTHING MEDIAN QUERY  /////// */
