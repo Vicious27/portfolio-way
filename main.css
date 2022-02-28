@@ -190,8 +190,7 @@ header, h1 {
 }
 
 .bio p {
-  font-size: 28px;
-  /* font-weight: bolder; */
+  font-size: 1.5em;
   color: rgba(214, 235, 235, 0.836);
 }
 
