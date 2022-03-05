@@ -62,7 +62,7 @@ main {
 
 .navbar-links li a {
   text-decoration: none;
-  color:rgba(112, 123, 180, 0.897);
+  color:rgba(18, 145, 184, 0.945);
   padding: 1rem;
   display: block;
 }
@@ -163,6 +163,54 @@ h1 {
   margin: 0 .2em;
 }
 
+.svg-projects {
+  align-items: center;
+  width: 1.3em;
+  margin: 0 .2em;
+}
+
+#svg-js {
+  background: #f7de1e9d;
+  border-radius: .1em;
+  padding: 2px;
+}
+
+#svg-html {
+  background: #e34f26b4;
+  border-radius: .1em;
+  padding: 2px;
+}
+
+#svg-css {
+  background: #1573b6ab;
+  border-radius: .1em;
+  padding: 2px;
+}
+
+#svg-jquery {
+  background: #0768ada6;
+  border-radius: .1em;
+  padding: 2px;
+}
+
+#svg-react {
+  background: #61dafbb9;
+  border-radius: .1em;
+  padding: 2px;
+}
+
+#svg-netlify {
+  background: #00c7b6e0;
+  border-radius: .1em;
+  padding: 2px;
+}
+
+#svg-heroku {
+  background: #430098;
+  border-radius: .1em;
+  padding: 2px;
+}
+
 
 /* ///////////////// SVG Styles ///////////////// */
  
@@ -239,6 +287,24 @@ header, h1 {
   text-decoration: underline;
 }
 
+.project-title {
+  border-top: outset;
+  border-bottom: inset rgba(65, 11, 65, 0.89);
+  border-radius: .2em .2em 50px 50px;
+  box-shadow: -2px 2px rgba(41, 190, 190, 0.911);
+  width: 22rem;
+  margin: auto;
+  color:rgba(116, 33, 88, 0.815);
+}
+.description {
+  color:rgba(116, 33, 88, 0.815);
+  border-bottom: inset rgba(41, 190, 190, 0.712);
+  box-shadow: -2px 2px rgba(65, 11, 65, 0.918);
+  border-radius: .2em .2em 50px 50px;
+  width: 12rem;
+  margin: auto;
+}
+
 .project1 img {
   margin-top: 1em;
   width: 100%;
@@ -253,10 +319,13 @@ section.project1 {
   line-height: 1.5;
   font-size: 20px;
   font-family: 'Open Sans';
+  padding: 2em 0;
 }
 
 section.project1 {
   border: solid #000000 2px;
+  border-bottom: groove 2px rgba(41, 190, 190, 0.911);
+  border-radius: .7em;
   box-shadow: 0px 0px 25px 20px black;
   color: rgb(34, 138, 187);
   text-align: center;
@@ -346,6 +415,7 @@ footer a:link {
 
  section.project1 {
   border: solid black 2px;
+  border-bottom: groove 2px rgba(41, 190, 190, 0.911);
   color: rgb(34, 138, 187);
   text-align: center;
   background-color: rgba(0, 0, 0, 0.89);
