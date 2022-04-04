@@ -107,7 +107,7 @@ main {
 }
 
 
-/* //////////    TYPOGRAPHY   //////////// */
+/* //////////   CONTACT SECTION  //////////// */
  
  #contact {
    position: relative;
@@ -215,9 +215,50 @@ h1 {
   padding: 2px;
 }
 
+/* /////// Bio Apperance & Behavior Animation /////////////  */
+#bio-gradient {
+  animation: gradient 8s ease-in infinite;
+}
+
+#bio-behavior {
+  animation: behavior 4.2s infinite;
+  display: inline-block;
+}
+
+@keyframes behavior {
+ 0% {
+   transform: rotate(-2deg);
+   color: rgb(180, 56, 114);
+ }
+ 50% {
+   transform: rotate(2deg);
+   color: rgb(61, 130, 102);
+ }
+ 100% {
+  transform: rotate(-2deg);
+  color: rgba(76, 91, 164, 0.975);
+ }
+}
+
+
+@keyframes gradient {
+  0% {
+    color: rgba(86, 144, 195, 0.937);
+  }
+  50% {
+    color: rgba(164, 45, 177, 0.925);
+  }
+  80%{
+    color: rgba(66, 200, 95, 0.87);
+  }
+  100% {
+    color: rgba(180, 56, 114, 0.93);
+  }
+}
+
 /* //////////////////// anchor styles //////////////// */
  
-  a:link{
+  a:link {
    color: rgb(35, 114, 134);
  }
 
