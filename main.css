@@ -134,13 +134,17 @@ h1 {
    padding-right: 12px;
  }
 
- #contact h2 {
-   text-align: center;
+ #contact-title {
+   justify-content: center;
    color:rgba(18, 145, 184, 0.945);
    padding-left: 12px;
    padding-bottom: 4px;
    font-family: 'Times New Roman';
    filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.853));
+   border-bottom: inset 2px rgba(89, 57, 119, 0.849);
+   border-bottom-left-radius: 12%;
+   border-bottom-right-radius: 12%;
+   font-size: 1.8rem;
  }
 
  #contact p {
@@ -490,13 +494,9 @@ footer a:link {
   }
 }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .bio, p {
     font-size: 26px;
-  }
-
-  #contact p {
-    font-size: 1.2em;
   }
 
   header, h1 {
