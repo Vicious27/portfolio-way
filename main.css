@@ -409,10 +409,6 @@ footer a:link {
   font-family: 'Open Sans';
 }
 
-abbr {
-  cursor: pointer;
-}
-
  /* ///////////   EVERYTHING MEDIA QUERY  /////// */
 @media (max-width: 320px) {
   header,h1 {
@@ -482,13 +478,16 @@ abbr {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.89);
  }
+ .project1 p {
+   padding: 0 6px;
+   text-align: center;
+ }
 }
 
 @media only screen and (min-width: 520px) {
   .bio, p {
     padding: 0 6px;
   }
-
 }
 
 @media (min-width: 1024px) {
