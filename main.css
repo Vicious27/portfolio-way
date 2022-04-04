@@ -177,43 +177,43 @@ h1 {
   margin: 0 .2em;
 }
 
-#svg-js {
+.svg-js {
   background: #f7de1e9d;
   border-radius: .1em;
   padding: 2px;
 }
 
-#svg-html {
+.svg-html {
   background: #e34f26b4;
   border-radius: .1em;
   padding: 2px;
 }
 
-#svg-css {
+.svg-css {
   background: #1573b6ab;
   border-radius: .1em;
   padding: 2px;
 }
 
-#svg-jquery {
+.svg-jquery {
   background: #0768ada6;
   border-radius: .1em;
   padding: 2px;
 }
 
-#svg-react {
+.svg-react {
   background: #61dafbb9;
   border-radius: .1em;
   padding: 2px;
 }
 
-#svg-netlify {
+.svg-netlify {
   background: #00c7b6e0;
   border-radius: .1em;
   padding: 2px;
 }
 
-#svg-heroku {
+.svg-heroku {
   background: #430098;
   border-radius: .1em;
   padding: 2px;
