@@ -227,15 +227,15 @@ h1 {
 
 @keyframes behavior {
  0% {
-   transform: rotate(-2deg);
-   color: rgb(180, 56, 114);
- }
- 50% {
-   transform: rotate(2deg);
+   transform: rotate(-3deg);
    color: rgb(61, 130, 102);
  }
+ 50% {
+   transform: rotate(3deg);
+   color: rgb(180, 56, 114);
+ }
  100% {
-  transform: rotate(-2deg);
+  transform: rotate(-3deg);
   color: rgba(76, 91, 164, 0.975);
  }
 }
@@ -407,6 +407,10 @@ footer a:link {
   color: rgba(20, 220, 160, 0.938);
   padding-left: .7em;
   font-family: 'Open Sans';
+}
+
+abbr {
+  cursor: pointer;
 }
 
  /* ///////////   EVERYTHING MEDIA QUERY  /////// */
