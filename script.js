@@ -1,6 +1,7 @@
 // Logic for mobile menu animation
 const toggleButton = document.getElementsByClassName('toggle-button')[0];
 const navbarLinks = document.getElementsByClassName('navbar-links')[0];
+const main = document.getElementById('main');
 
 let bar1 = document.getElementById('bar1');
 let bar2 = document.getElementById('bar2');
@@ -25,6 +26,12 @@ toggleButton.addEventListener('click', () => {
   else {
     styleBurger();
   }
+});
+
+//closes hamburger Menu when clicking somewhere other than nav
+main.addEventListener('click', () => {
+  navbarLinks.classList.remove('active');
+  styleBurger();
 });
 
 //UnseenCode logo appear and disapear functions
