@@ -275,14 +275,17 @@ h1 {
   background-color: rgba(88, 39, 80, 0.877);
   width: 24px;
   border: rgba(213, 217, 224, 0.774) outset 2px;
-  border-radius: .8em .5em .8em .5em;
+  border-radius: .5em;
   text-decoration: none;
-  box-shadow: 0 .2em  .2em;
+  box-shadow: 0 .1em  .2em .1em;
+  margin: 0 .3em;
 }
 
-.github-links:hover {
-  transform: translateY(.2em);
-  box-shadow: 0 .1em  .1em;
+a.github-links:hover {
+  font-weight: normal;
+  color: rgba(227, 227, 240, 0.749);
+  box-shadow: 0 .1em .3em rgb(35, 114, 134);
+  margin: .3em .3em;
 }
 
  a:hover {
